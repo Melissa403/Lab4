@@ -61,7 +61,7 @@ h1 {
 input,
 optgroup,
 select,
-textarea {
+textarea, list {
 border: none;
 font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', sans-serif; font-size=45px;
 height: auto;
