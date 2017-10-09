@@ -214,8 +214,9 @@ label {
 }
 
 body {
-   background-color: 999999;
+   background-color: lightgray;
    font-family: 'Dosis', sans-serif; font-size=55px;
+   padding: 2em;
 }
 
 h1 {
