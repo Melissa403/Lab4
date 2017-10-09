@@ -21,10 +21,15 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+border: none;
+font-size: 45px;
+height: auto;
+padding: 10px;
+width: 70%;
+background-color: #DCDCDC;
+margin-bottom: 20px;
+}
+
 }
 
 /**
@@ -207,13 +212,10 @@ body {
    font-family: 'Katibeh', cursive; font-size=45px;
 }
 
-textarea,
-select {
-border: none;
-font-size: 45px;
-height: auto;
-padding: 10px;
-width: 70%;
-background-color: #DCDCDC;
-margin-bottom: 20px;
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  padding: 10px 0;
 }
