@@ -18,7 +18,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media only screen 
   and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (max-device-width: 750px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
 }
@@ -30,7 +30,7 @@ textarea {
 border: none;
 font-family: 'Dosis', 'Montserrat', sans-serif; font-size=45px;
 height: auto;
-padding: 50px;
+padding: 10px;
 width: 70%;
 background-color: #cccccc;
 margin-bottom: 20px;
