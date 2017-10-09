@@ -205,5 +205,8 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
+body {
+font-family: 'Katibeh', cursive;
+}
 
 /* ===== STATE STYLES ======= */
