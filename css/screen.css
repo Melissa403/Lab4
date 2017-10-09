@@ -30,7 +30,7 @@ textarea {
 border: none;
 font-family: 'Dosis', 'Montserrat', sans-serif; font-size=45px;
 height: auto;
-padding: 10px;
+padding: 50px;
 width: 70%;
 background-color: #cccccc;
 margin-bottom: 20px;
@@ -43,6 +43,14 @@ margin-bottom: 20px;
   vertical-align: middle; 
 }
 
+button
+{
+font-size: 18px;
+text-align: center;
+font-style: normal;
+position:relative;
+top:50%; 
+left:50%;
 }
 
 /**
