@@ -26,7 +26,7 @@ label {
 
 body {
    background-color: lightgray;
-   font-family: 'Montserrat', 'Dosis', sans-serif; font-size=55px;
+   font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', sans-serif; font-size=55px;
    padding: 2em;
 }
 
@@ -37,6 +37,7 @@ h1 {
   margin-bottom: 30px;
   padding: 10px 0;
 }
+   
 }
 
 label {
@@ -45,7 +46,7 @@ label {
 
 body {
    background-color: lightgray;
-   font-family: 'Dosis', sans-serif; font-size=55px;
+   font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', sans-serif; font-size=55px;
    padding: 2em;
 }
 
@@ -62,7 +63,7 @@ optgroup,
 select,
 textarea {
 border: none;
-font-family: 'Dosis', 'Montserrat', sans-serif; font-size=45px;
+font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', sans-serif; font-size=45px;
 height: auto;
 padding: 10px;
 width: 70%;
@@ -79,7 +80,7 @@ margin-bottom: 20px;
 
 button
 {
-font-size: 18px;
+font-size: 55px;
 text-align: center;
 font-style: normal;
 position:relative;
