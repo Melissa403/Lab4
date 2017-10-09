@@ -15,13 +15,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-
-@media only screen 
-  and (min-device-width: 414px) 
+@media only screen  
   and (max-device-width: 750px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
+  and (-webkit-min-device-pixel-ratio: 3) 
+{ 
+label {
+  display: block;
 }
+
+body {
+   background-color: lightgray;
+   font-family: 'Dosis', sans-serif; font-size=55px;
+   padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+}
+
 
 input,
 optgroup,
@@ -224,20 +240,3 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-label {
-  display: block;
-}
-
-body {
-   background-color: lightgray;
-   font-family: 'Dosis', sans-serif; font-size=55px;
-   padding: 2em;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  margin-bottom: 30px;
-  padding: 10px 0;
-}
