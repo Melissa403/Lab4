@@ -16,13 +16,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 2. Remove the margin in Firefox and Safari.
  */
 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
 button,
 input,
 optgroup,
 select,
 textarea {
 border: none;
-font-family: 'Dosis', sans-serif; font-size=45px;
+font-family: 'Dosis', 'Montserrat', sans-serif; font-size=45px;
 height: auto;
 padding: 10px;
 width: 70%;
