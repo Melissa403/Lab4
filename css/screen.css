@@ -38,6 +38,23 @@ h1 {
 }
 }
 
+label {
+  display: block;
+}
+
+body {
+   background-color: lightgray;
+   font-family: 'Dosis', sans-serif; font-size=55px;
+   padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
 
 input,
 optgroup,
