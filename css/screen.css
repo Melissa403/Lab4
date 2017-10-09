@@ -36,6 +36,11 @@ background-color: #cccccc;
 margin-bottom: 20px;
 }
 
+.inline-field input,
+.inline-field label {
+  display: inline-block;
+}
+
 }
 
 /**
