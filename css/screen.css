@@ -202,11 +202,18 @@ label {
   display: block;
 }
 
-/* ===== LAYOUT STYLES ====== */
-
-/* ===== MODULAR STYLES ===== */
 body {
-font-family: 'Katibeh', cursive; font-size=33px;
+   background-color: lightgray;
+   font-family: 'Katibeh', cursive; font-size=45px;
 }
 
-/* ===== STATE STYLES ======= */
+textarea,
+select {
+border: none;
+font-size: 45px;
+height: auto;
+padding: 10px;
+width: 70%;
+background-color: #DCDCDC;
+margin-bottom: 20px;
+}
