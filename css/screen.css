@@ -15,77 +15,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-@media only screen  
-  and (max-device-width: 750px) 
-  and (-webkit-min-device-pixel-ratio: 3) 
-{ 
-   
-label {
-  display: block;
-}
 
-body {
-   background-color: lightgray;
-   font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', 'Arial', sans-serif; font-size=55px;
-   padding: 2em;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  margin-bottom: 30px;
-  padding: 10px 0;
-}
-   
-}
-
-label {
-  display: block;
-}
-
-body {
-   background-color: lightgray;
-   font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', 'Arial', sans-serif; font-size=25px;
-   padding: 2em;
-}
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  margin-bottom: 30px;
-  padding: 10px 0;
-}
-
+button,
 input,
 optgroup,
 select,
-textarea, list {
-border: none;
-font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', 'Arial', sans-serif; font-size=25px;
-height: auto;
-padding: 10px;
-width: 70%;
-background-color: #cccccc;
-margin-bottom: 20px;
-}
-
-.inline-field input,
-.inline-field label {
-  display: inline-block;
-  margin-bottom: 0; 
-  vertical-align: middle; 
-}
-
-button
-{
-font-size: 55px;
-text-align: center;
-font-style: normal;
-position:relative;
-top:50%; 
-left:50%;
+textarea {
+  font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', 'Arial', sans-serif; /* 1 */
+  background-color: gray;
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -259,3 +199,8 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+@media screen and (min-width: 480px) {
+body, html {
+  min-height:100%;
+}
+}
