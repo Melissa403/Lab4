@@ -205,3 +205,23 @@ body, html {
   min-height:100%;
 }
 }
+
+/* ===== LAYOUT STYLES ====== */
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* ===== MODULAR STYLES ===== */
+
+form li {
+  padding-bottom: 1.2em;
+}
+
+#age-verification {
+  display: block;
+  padding-left: 30px;
+}
+
+/* ===== STATE STYLES ======= */
