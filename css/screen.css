@@ -23,6 +23,8 @@ select,
 textarea {
   font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', 'Arial', sans-serif; /* 1 */
   background-color: #cccccc;
+  border: 0;
+  border-radius: 0;
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
