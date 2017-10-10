@@ -22,7 +22,7 @@ optgroup,
 select,
 textarea {
   font-family: 'Montserrat', 'Dosis', 'Open Sans', 'Ubuntu', 'Arial', sans-serif; /* 1 */
-  background-color: gray;
+  background-color: #cccccc;
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -193,10 +193,11 @@ img, audio, video {
 */
 
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
+  font-size: 1.5em; /* 22px */
+  font-family: 'Dosis','Ubuntu', sans-serif; 
+  background-color: lightgray;
+  line-height: 1.5em; /* 26px / ~ 120% */
+  padding: 1.5em; /* 26px / ~ 120% */
 }
 
 @media screen and (min-width: 480px) {
