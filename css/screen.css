@@ -202,6 +202,10 @@ html {
   padding: 1.5em; /* 26px / ~ 120% */
 }
 
+#input-submit {
+   width: 50%;
+}
+
 @media screen and (min-width: 480px) {
 body, html {
   min-height:100%;
